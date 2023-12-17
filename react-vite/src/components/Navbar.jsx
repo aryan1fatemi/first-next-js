@@ -1,7 +1,10 @@
 
-export default function Navbar(){
+export default function Navbar(props){
     return (
-      <div>Navbar</div>
+    <div className="pt-10">
+      <h1>{props.author}</h1>
+      <h2>{props.title}</h2>
+    </div>
     )
   }
   
