@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 export default function Navbar(){
   const content=
     <>
-      <div>
+      <div className="absolute ">
         <ul>
           <Link to="Home">
             <li>Home</li>
