@@ -34,6 +34,9 @@ export default function Navbar(){
             <Link spy={true} smooth={true} to="Home">
               <li className="hover:text-indigo-400 transition border-b-2 border-slate-900 cursor-pointer hover:border-indigo-400">Home</li>
             </Link >
+            <Link spy={true} smooth={true} to="About">
+              <li className="hover:text-indigo-400 transition border-b-2 border-slate-900 cursor-pointer hover:border-indigo-400">About</li>
+            </Link>
             <Link spy={true} smooth={true} to="Projects">
               <li className="hover:text-indigo-400 transition border-b-2 border-slate-900 cursor-pointer hover:border-indigo-400">Projects</li>
             </Link>

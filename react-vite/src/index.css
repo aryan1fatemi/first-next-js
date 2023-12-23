@@ -11,3 +11,9 @@
 .img_glow{
     box-shadow: 0 0 55px rgb(92, 107, 192);
 }
+.neno-button{
+    transition: all 0.3s ease-in-out;
+}
+.neno-button :hover{
+    box-shadow: 0 0 55px rgb(92, 107, 192);
+}
