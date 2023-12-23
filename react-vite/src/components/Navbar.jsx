@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 import { TbMenuDeep } from "react-icons/tb";
-
+import { TbHexagonLetterA } from "react-icons/tb";
 export default function Navbar(){
   const [click,setclick]=useState(false);
   const handleClick=()=> setclick(!click);
@@ -24,9 +24,9 @@ export default function Navbar(){
     </> 
     return (
     <nav>
-      <div className="h-10vh flex justify-between text-slate-100 lg:py-5 py-4 px-20 ">
+      <div className="h-10vh flex justify-between text-slate-100 lg:py-5 py-4 px-20 z-50 border-b border-slate-800">
         <div className="flex items-center flex-1">
-          <span>Logo</span>
+          <span><a href="" className="text-indigo-400 hover:text-indigo-500 rounded-full"><TbHexagonLetterA className="text-[36px] text-indigo-400"/></a></span>
         </div>
         <div className="lg:flex md:flex lg: flex-1 items-center justify-end font-normal hidden">
           <div className="flex-10">

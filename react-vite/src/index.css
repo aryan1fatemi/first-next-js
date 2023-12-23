@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.glow{
+    transition: all 0.3s ease-in-out;
+}
+.glow:hover{
+    box-shadow: 0 0 25px rgb(92, 107, 192);
+}
+.img_glow{
+    box-shadow: 0 0 55px rgb(92, 107, 192);
+}
