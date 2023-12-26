@@ -1,6 +1,7 @@
 import { SiGithub } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import img from "../../assets/loco.png";
+import img2 from "../../assets/math.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -32,6 +33,7 @@ const Banner = () => {
             </div>
         </div>
         <img src={img} alt="Logo" className="rounded-full border-2 p-1 border-indigo-400 img_glow" width={320} height={320} data-aos="fade-left"/>
+        <img src={img2} alt="Logo" width={320} height={320} data-aos="fade-left"/>
     </div>
   )
 }
