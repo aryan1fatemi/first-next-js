@@ -3,8 +3,13 @@ import './App.css'
 import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import { AboutProject } from './components/AboutProject'
+import { useState } from 'react'
+
 
 function App() {
+  const [showAbout,setShowAbout] = useState(false)
+
 
   return (
     <div className='bg-white'>
