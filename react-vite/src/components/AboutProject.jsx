@@ -6,16 +6,17 @@ import {
   Button,
 } from "@material-tailwind/react";
  
-export function AboutProject({onClose,Body,Title}) {
+export function AboutProject({onClose,ProjectText}) {
   return (
     <Card className="mt-6 w-80 h-80 items-center z-10 absolute gap-2 border-4 border-indigo-800 rounded bg-indigo-800 text-white">
       <CardBody className="mb-2">
         <Typography variant="h5" color="blue-gray" className="mb-2 mt-1">
-          {Title}
+          Project Detail
         </Typography>
         <Typography>
-          {Body}
+          {ProjectText}
         </Typography>
+
       </CardBody>
       <CardFooter className="pt-0 flex flex-col">
         <a href="#" className="inline-block">
